@@ -157,7 +157,6 @@
     $("#opcion").val(3);
    }
    function guardarRegistro() {
-    alert($("#balata")[0]);
             var formData = new FormData();
             formData.append("op", 1);
             formData.append("fecha", $("#fecha").val());
@@ -176,15 +175,14 @@
                 data: formData,
                 success: function(data) {
                     if (data.status == "fail") {
-                        mostrarMensaje("Error", data.msg);
                         console.log(data.msg);
                         console.log("error");
                     } else {
-                      alert("success")
+                      location.reload();
                     }
                 },
                 error: function(s) {
-                  alert("error")
+                  console.log(s);
                 }
             });
     }
