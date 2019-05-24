@@ -167,7 +167,7 @@
             formData.append("marca", $("#marca").val());
             $.ajax({
                 dataType: "json",
-                url: "guardarRegistro.php",
+                url: "guardarRegistro2.php",
                 type: "POST",
                 async: false,
                 cache: false,
