@@ -23,10 +23,6 @@
         <h1>Fecha: dia/mes/año</h1>
       </div>
     </div>
-
-      <br>
-      <br>
-      <br>
       <div class="row">
         
       <div class="col-lg-3">
@@ -65,20 +61,20 @@
       <div class="col-lg-4"></div>
       </div>
       <div class="row">
-        <div class="col-lg-1">
+        <div class="col-sm-1">
           
         <img src="img/taller.png" style="width: 100px;height: 100px">
         <h3>Taller</h3>
         </div>
-        <div class="col-lg-1"></div>
+        <div class="col-sm-1"></div>
         <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-         <div class="col-lg-1">
+         <div class="col-sm-1">
           
         <img src="img/siniestro.png" style="width: 100px;height: 100px;">
         <h3>Siniestro</h3>
         </div>
-        <div class="col-1"></div>
-        <div class="col-lg-3" >
+        <div class="col-md-1"></div>
+        <div class="col-md-3" >
           <div style="text-align: center;">
           <h3>Cronometro</h3>
           <h3>Hora/Minuto/Seg</h3>
