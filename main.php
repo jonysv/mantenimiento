@@ -3,7 +3,6 @@
 <html>
 <head>
 	<title>Rutas</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/daterangepicker.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-timepicker.css">
@@ -13,14 +12,14 @@
   
 </head>
 <body>
-  <div class="container ">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         
         <h1>Ruta: Habitacional</h1>
       </div>
-      <div class="col-sm-3"></div>
-      <div class="col-sm-5">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-5">
         <h1>Fecha: dia/mes/año</h1>
       </div>
     </div>
@@ -30,7 +29,7 @@
       <br>
       <div class="row">
         
-      <div class="col-sm-3">
+      <div class="col-lg-3">
 
         <table class="table table-striped table-bordered">
   <thead class="bg-primary">
@@ -59,35 +58,35 @@
   </tbody>
 </table>
       </div>
-      <div class="col-sm-1"></div>
-      <div class="col-sm-4">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-4">
         <div id="map" style="width: 400px; height: 250px;"></div>
       </div>
-      <div class="col-sm-4"></div>
+      <div class="col-lg-4"></div>
       </div>
       <div class="row">
-        <div class="col-sm-1">
+        <div class="col-lg-1">
           
         <img src="img/taller.png" style="width: 100px;height: 100px">
         <h3>Taller</h3>
         </div>
-        <div class="col-sm-1"></div>
+        <div class="col-lg-1"></div>
         <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-         <div class="col-sm-1">
+         <div class="col-lg-1">
           
         <img src="img/siniestro.png" style="width: 100px;height: 100px;">
         <h3>Siniestro</h3>
         </div>
         <div class="col-1"></div>
-        <div class="col-sm-3" >
+        <div class="col-lg-3" >
           <div style="text-align: center;">
           <h3>Cronometro</h3>
           <h3>Hora/Minuto/Seg</h3>
           <h3>16:33:30</h3>
           </div>
         </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-3">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-3">
           <h3>Puntos con demora</h3>
           <h3>1.</h3>
           <h3>2.</h3>
